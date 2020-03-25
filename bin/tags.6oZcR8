@@ -1,0 +1,8 @@
+name	contact_me.php	/^$name = strip_tags(htmlspecialchars($_POST['name']));$/;"	v
+email_address	contact_me.php	/^$email_address = strip_tags(htmlspecialchars($_POST['email']));$/;"	v
+phone	contact_me.php	/^$phone = strip_tags(htmlspecialchars($_POST['phone']));$/;"	v
+message	contact_me.php	/^$message = strip_tags(htmlspecialchars($_POST['message']));$/;"	v
+to	contact_me.php	/^$to = 'yourname@yourdomain.com'; \/\/ Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.$/;"	v
+email_subject	contact_me.php	/^$email_subject = "Website Contact Form:  $name";$/;"	v
+email_body	contact_me.php	/^$email_body = "You have received a new message from your website contact form.\\n\\n"."Here are the details:\\n\\nName: $name\\n\\nEmail: $email_address\\n\\nPhone: $phone\\n\\nMessage:\\n$message";$/;"	v
+headers	contact_me.php	/^$headers = "From: noreply@yourdomain.com\\n"; \/\/ This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.$/;"	v

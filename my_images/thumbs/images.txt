@@ -1,0 +1,12 @@
+total 160
+-rw-rw-r-- 1 vip vip 10357 Mar 21 10:24 01_RajhiSteel.jpg
+-rw-rw-r-- 1 vip vip  8085 Mar 21 10:25 02_KAU.jpg
+-rw-rw-r-- 1 vip vip  4515 Mar 21 11:06 03_Edx.png
+-rw-rw-r-- 1 vip vip  4475 Mar 21 11:02 04_Udacity.jpg
+-rw-rw-r-- 1 vip vip  1830 Mar 21 11:09 05_DirectEng.png
+-rw-rw-r-- 1 vip vip  7865 Mar 21 11:19 06_NewHorizon.png
+-rw-rw-r-- 1 vip vip 12934 Mar 21 11:21 07_Algurayat.jpeg
+-rw-rw-r-- 1 vip vip 50765 Mar 21 11:35 08_IFTDO.jpg
+-rw-rw-r-- 1 vip vip 34279 Mar 21 11:37 09_ProgramminHub.png
+-rw-rw-r-- 1 vip vip  4337 Mar 21 19:23 codeCademy.jpeg
+-rw-rw-r-- 1 vip vip     0 Mar 21 19:34 images.txt
