@@ -1,0 +1,565 @@
+/*Font support for MAC*/
+@font-face {
+  font-family: 'Century Gothic';
+  font-weight: normal;
+  font-style: normal;
+  src: local('Century Gothic'), url('/blobcontent/zty/fonts/CenturyGothic.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'Century Gothic';
+  font-weight: bold;
+  font-style: normal;
+  src: local('Century Gothic Bold'), url('/blobcontent/zty/fonts/CenturyGothicBold.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'Century Gothic';
+  font-weight: bold;
+  font-style: italic;
+  src: local('Century Gothic Bold Italic'), url('/blobcontent/zty/fonts/CenturyGothicBoldItalic.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'Century Gothic';
+  font-weight: normal;
+  font-style: italic;
+  src: local('Century Gothic Italic'), url('/blobcontent/zty/fonts/CenturyGothicItalic.ttf') format('truetype')
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent
+}
+
+body {
+  text-align: left;
+  font-feature-settings: "liga"0;
+  -moz-font-feature-settings: "liga"off
+}
+
+#document.skn-srz2 ol,
+#document.skn-srz2 ul {
+  list-style: none
+}
+
+#document.skn-srz2 table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: inherit;
+  color: inherit;
+  width: 100%
+}
+
+#document.skn-srz2 .word-break {
+  word-wrap: break-word
+}
+
+/*START content disc style for LI*/
+#document.skn-srz2 ul,
+#document.skn-srz2 li {
+  margin: 0;
+  padding: 0;
+  list-style-type: disc
+}
+
+#document.skn-srz2 ul li {
+  margin: 0 0 0 16px;
+  padding: 0
+}
+
+@-moz-document url-prefix() {
+  #document.skn-srz2 ul li {
+    margin: 0 0 0 12px;
+    padding: 0 0 0 3px
+  }
+}
+
+/*END content disc style for LI*/
+
+#document.skn-srz2 {
+  border-left: 120px solid #002e58 !important;
+  table-layout: fixed;
+  word-wrap: break-word;
+  box-sizing: border-box;
+  padding: 25px;
+  min-height: 792px
+}
+
+#document.skn-srz2.hmargins {
+  padding-left: 12px !important;
+  padding-right: 24px !important
+}
+
+#document.skn-srz2 .name {
+  color: #002e58;
+  font-size: 15px;
+  line-height: 17px;
+  font-weight: bold;
+  padding: 0;
+  text-align: left
+}
+
+#document.skn-srz2 .paragraph {
+  position: relative;
+  clear: both;
+  min-height: 10px
+}
+
+#document.skn-srz2 .heading {
+  clear: both;
+  color: #002e58;
+  font-weight: bold
+}
+
+#document.skn-srz2 .address {
+  position: relative;
+  text-align: left;
+  font-size: 0.917em;
+  line-height: 1.25em;
+  margin-top: 0;
+  position: inherit;
+  z-index: 2;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  word-wrap: break-word
+}
+
+#document.skn-srz2 .table_wrapper {
+  width: 100%;
+  margin-top: 0
+}
+
+#document.skn-srz2 table.twocol td {
+  width: 50%
+}
+
+#document.skn-srz2 table.skills {
+  width: 100%
+}
+
+#document.skn-srz2 table.skills th,
+#document.skn-srz2 table.skills td {
+  width: 20%;
+  text-align: center
+}
+
+#document.skn-srz2 table.skills th {
+  text-decoration: underline
+}
+
+#document.skn-srz2 table.skills .skillname,
+#document.skn-srz2 table.skills .skillrating {
+  text-align: left;
+  width: 35%
+}
+
+#document.skn-srz2 table.skills .skillrating {
+  width: 20%
+}
+
+#document.skn-srz2 table.skills .skillyears,
+#document.skn-srz2 table.skills .skilllast {
+  width: 19%
+}
+
+#document.skn-srz2 table.skills .pad1 {
+  width: 5%
+}
+
+#document.skn-srz2 table.skills .pad2,
+#document.skn-srz2 table.skills .pad3 {
+  width: 1%
+}
+
+#document.skn-srz2 span.paddedline {
+  display: block
+}
+
+#document.skn-srz2 span.jobtitle,
+#document.skn-srz2 span.degree,
+#document.skn-srz2 span.programline {
+  font-weight: bold
+}
+
+#document.skn-srz2 .paragraph .dates_wrapper {
+  font-weight: bold;
+  display: block;
+  text-align: right;
+  color: #fff;
+  position: absolute;
+  left: -160px;
+  float: none;
+  margin-left: 0 !important;
+  width: 100px !important
+}
+
+#document.skn-srz2 .singlecolumn {
+  position: relative
+}
+
+#document.skn-srz2 .txtItalics {
+  font-style: italic
+}
+
+#document.skn-srz2 .txtBold {
+  font-weight: bold
+}
+
+#document.skn-srz2 .resumeTitle {
+  text-align: left;
+  color: #002e58;
+  font-weight: 400
+}
+
+#document.skn-srz2 td.twocol_2 {
+  border-left: 1px solid #FEFDFD
+}
+
+#document.skn-srz2 .addressLeft,
+#document.skn-srz2 .addressRight {
+  display: table-cell;
+  width: 40%
+}
+
+#document.skn-srz2 .ratingfield p {
+  display: inline
+}
+
+/*Timeline classes*/
+#document.skn-srz2 .section {
+  border-left: 1px solid #CCC;
+  padding-left: 25px;
+  margin-left: 12px;
+  position: relative
+}
+
+#document.skn-srz2 .notdraggable {
+  border: none;
+  margin-left: 0;
+  padding-left: 0
+}
+
+#document.skn-srz2 .heading,
+#document.skn-srz2 .paragraph {
+  position: relative
+}
+
+#document.skn-srz2 .singlecolumn:before {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -30px;
+  content: "";
+  height: 8px;
+  width: 8px;
+  border: 0;
+  background: #002e58;
+  z-index: 2;
+  border-radius: 100%
+}
+
+#document.skn-srz2 .summary .singlecolumn:before {
+  display: none
+}
+
+#document.skn-srz2 .notdraggable+.section:not(.notdraggable):before {
+  border: 1px solid #fff;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -2px;
+  width: 3px;
+  background: #fff
+}
+
+#document.skn-srz2 .paragraph+tr.paragraph:before {
+  display: none
+}
+
+#document.skn-srz2 .headingIcon svg circle {
+  fill: #002e58
+}
+
+/*Icons and Rating*/
+#document.skn-srz2 .headingIcon {
+  z-index: 4;
+  left: -40px;
+  position: absolute
+}
+
+#document.skn-srz2 .headingIcon svg {
+  width: 30px;
+  height: 30px
+}
+
+#document.skn-srz2 .headingIcon svg path {
+  fill: #fff
+}
+
+#document.skn-srz2 .iconRow {
+  clear: both;
+  padding-bottom: 7px;
+  word-wrap: break-word
+}
+
+#document.skn-srz2 .iconRow:last-child {
+  padding-bottom: 0
+}
+
+#document.skn-srz2 .iconRow .iconSvg {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-right: 5px
+}
+
+#document.skn-srz2 .iconRow svg circle {
+  fill: #002e58
+}
+
+#document.skn-srz2 .iconRow svg path {
+  fill: #fff
+}
+
+#document.skn-srz2 .iconRow .icoTxt {
+  margin-left: 25px
+}
+
+#document.skn-srz2 .ratingWrapper {
+  width: 150px;
+  float: right;
+  text-align: right
+}
+
+#document.skn-srz2 .ratingWrapper .noLnht {
+  line-height: 0
+}
+
+#document.skn-srz2 .ratingWrapper svg {
+  height: 13px;
+  margin-top: 2px
+}
+
+#document.skn-srz2 .ratingWrapper svg .default-fill {
+  fill: #002e58
+}
+
+#document.skn-srz2 .sortable-item .ratingWrapper span {
+  top: 0
+}
+
+#document.skn-srz2,
+#document.skn-srz2 table {
+  line-height: 17px
+}
+
+#document.skn-srz2 {
+  border-left-color: #002e58 !important
+}
+
+#document.skn-srz2.pagesize {
+  width: 612px
+}
+
+#document.skn-srz2.fontsize {
+  font-size: 12px
+}
+
+#document.skn-srz2.fontface {
+  font-family: Century Gothic
+}
+
+#document.skn-srz2 .name {
+  color: #002e58;
+  font-size: 37px;
+  line-height: 47px
+}
+
+#document.skn-srz2 .address {
+  font-size: 12px;
+  line-height: 22px;
+  padding-top: 15px
+}
+
+#document.skn-srz2 .section {
+  padding-top: 15px
+}
+
+#document.skn-srz2 .firstsection,
+#document.skn-srz2 .SECTION_CNTC {
+  padding-top: 0
+}
+
+#document.skn-srz2 .heading {
+  padding-bottom: 10px
+}
+
+#document.skn-srz2 .jobtitle,
+span.degree,
+span.programline {
+  font-size: 15px
+}
+
+#document.skn-srz2 .paragraph {
+  padding-top: 5px
+}
+
+#document.skn-srz2 .firstparagraph {
+  padding-top: 0 !important
+}
+
+#document.skn-srz2 .singlecolumn,
+#document.skn-srz2 .maincolumn {
+  margin-left: 0px
+}
+
+#document.skn-srz2 span.dates_wrapper {
+  line-height: 18px
+}
+
+#document.skn-srz2 .sectiontitle,
+#document.skn-srz2 .resumeTitle {
+  color: #002e58;
+  font-size: 16px;
+  line-height: 21px
+}
+
+#document.skn-srz2 table.skills td {
+  padding-top: 3px
+}
+
+#document.skn-srz2 .noPind {
+  margin-left: 0
+}
+
+/*Timeline*/
+#document.skn-srz2 .notdraggable+.section:not(.notdraggable):before {
+  height: 25px
+}
+
+#document.skn-srz2 .singlecolumn:before {
+  background: #002e58;
+  top: 5px;
+  margin-left: -0px
+}
+
+/*Icons and Rating*/
+#document.skn-srz2 .headingIcon svg circle {
+  fill: #002e58
+}
+
+#document.skn-srz2 .headingIcon {
+  top: -4px
+}
+
+#document.skn-srz2 .iconRow svg circle {
+  fill: #002e58
+}
+
+#document.skn-srz2 .iconRow .iconSvg {
+  padding-top: -3px
+}
+
+/* fixes for builder page */
+#document.skn-srz2 .sortable-item .section {
+  padding-top: 0;
+  padding-bottom: 15px
+}
+
+#document.skn-srz2 .sortable-item .nameSec,
+#document.skn-srz2 .sortable-item .SECTION_CNTC {
+  padding-bottom: 0
+}
+
+/*Phase 2: fixes for builder page*/
+.parent-drag.active#document.skn-srz2,
+._single-parent-drag.active#document.skn-srz2 {
+  border: 0 !important
+}
+
+#document.skn-srz2 .ratingWrapper svg .default-fill {
+  fill: #002e58
+}
+
+#document.skn-srz2 .SortanleInner .singlecolumn .ratingfield {
+  word-break: break-word
+}
+
+/*Hover border style*/
+#document.skn-srz2.active,
+#document.skn-srz2.active._single-parent-drag {
+  padding-left: 1px !important;
+  padding-right: 0 !important
+}
+
+#document.skn-srz2.active .section {
+  margin-left: 12px;
+  padding-top: 0
+}
