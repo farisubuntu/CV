@@ -1,9 +1,33 @@
+/* @font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_bold.woff);
+  font-weight: bold;
+}
+div {
+  font-family: myFirstFont;
+} */
+
+
 #pageContent{
-  background-color:black;
+  /* background-color:black; */
   margin-top: 2%;
   color:green;
 
 }
 #myCarousel,.carousel{
   background-color: black;
+}
+
+
+
+
+div#avatar {
+  vertical-align: middle;
+  /* width: 50px!important; */
+  /* height: 50px!important; */
+  border-radius: 50%!important;
 }
